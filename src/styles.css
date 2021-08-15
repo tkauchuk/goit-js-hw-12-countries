@@ -1,0 +1,14 @@
+body {
+  padding: 10px 20px;
+}
+span {
+  font-weight: 400;
+}
+.country-wrapper {
+  margin-top: 4px;
+  padding: 4px;
+  outline: 2px dashed red;
+}
+.countires-list {
+  outline: 2px dashed green;
+}

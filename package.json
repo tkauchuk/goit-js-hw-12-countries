@@ -1,0 +1,32 @@
+{
+  "name": "goit-js-hw-12-countries",
+  "version": "1.0.0",
+  "description": "repo for js-hw-12-countries",
+  "main": "index.js",
+  "homepage": "https://tkauchuk.github.io/goit-js-hw-12-countries",
+  "scripts": {
+    "dev": "parcel src/*.html -p 2000",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkauchuk/goit-js-hw-12-countries.git"
+  },
+  "keywords": [],
+  "author": "Alexander Tkachuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkauchuk/goit-js-hw-12-countries/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "lodash": "^4.17.21",
+    "pnotify": "^5.2.0"
+  }
+}
